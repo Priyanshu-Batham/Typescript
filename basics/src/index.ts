@@ -90,3 +90,15 @@ console.log("Hello how are you?");
 // const btn:HTMLButtonElement = document.querySelector("#btn")!;
 // console.log(btn);
 
+//generics
+// const fn = <T>(data: T): T=>{
+//     return data;
+// }
+// function fn<T>(data: T):T{
+//     return data;
+// }
+// console.log(fn(20));
+// console.log(fn("Hello"));
+// console.log(fn<number>(20))
+// console.log(fn<string>("Hello"))
+
