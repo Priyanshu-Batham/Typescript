@@ -14,7 +14,6 @@
 }
 
 .container{
-  /* background-color: red; */
   max-width: 1000px;
   margin: auto;
 }
@@ -50,9 +49,7 @@
 }
 
 .todoContainer{
-  /* width: 60%; */
   margin: auto;
-  /* background-color: green; */
   margin-top: 50px;
 }
 

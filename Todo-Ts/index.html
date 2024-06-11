@@ -11,22 +11,17 @@
       <div class="container">
         <h1 class="todoHeading">Todo Using Typescript</h1>
         <form class="myForm">
-          <input type="text" name="todoText" placeholder="Write your Todo here" class="todoText" required>
+          <input
+            type="text"
+            name="todoText"
+            placeholder="Write your Todo here"
+            class="todoText"
+            required
+          />
           <button type="submit" class="submitBtn">Add</button>
         </form>
 
-        <ul class="todoContainer">
-          <li class="todo">
-            <input type="checkbox" class="checkbox">
-            <p class="text">This is a hardcoded todo for styling purpose</p>
-            <button class="delete">X</button>
-          </li>
-          <li class="todo">
-            <input type="checkbox" class="checkbox">
-            <p class="text">This is a hardcoded todo for styling purpose</p>
-            <button class="delete">X</button>
-          </li>
-        </ul>
+        <ul class="todoContainer"></ul>
       </div>
     </div>
     <script defer type="module" src="/src/main.ts"></script>
