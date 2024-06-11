@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO + TS</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="container">
+        <h1 class="todoHeading">Todo Using Typescript</h1>
+        <form class="myForm">
+          <input type="text" name="todoText" placeholder="Write your Todo here" class="todoText" required>
+          <button type="submit" class="submitBtn">Add</button>
+        </form>
+
+        <ul class="todoContainer">
+          <li class="todo">
+            <input type="checkbox" class="checkbox">
+            <p class="text">This is a hardcoded todo for styling purpose</p>
+            <button class="delete">X</button>
+          </li>
+          <li class="todo">
+            <input type="checkbox" class="checkbox">
+            <p class="text">This is a hardcoded todo for styling purpose</p>
+            <button class="delete">X</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script defer type="module" src="/src/main.ts"></script>
+  </body>
+</html>

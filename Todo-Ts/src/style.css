@@ -1,0 +1,93 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container{
+  /* background-color: red; */
+  max-width: 1000px;
+  margin: auto;
+}
+
+.todoHeading{
+  text-align: center;
+  font-size: 4rem;
+}
+
+.myForm{
+  display: flex;
+  justify-content: center;
+}
+
+.todoText{
+  padding: 1rem 4rem 1rem 1rem;
+  font-size: 1.2rem;
+}
+
+.submitBtn{
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  margin: 0 5px;
+  background-color: green;
+  border: 2px solid rgb(107, 255, 137);
+  transition-duration: 0.3s;
+
+  &:hover{
+    background-color: rgb(107, 255, 137);
+    border: 2px solid green;
+    color: black;
+  }
+}
+
+.todoContainer{
+  /* width: 60%; */
+  margin: auto;
+  /* background-color: green; */
+  margin-top: 50px;
+}
+
+.todo{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  border-radius: 50px 0 50px 0;
+  padding: 0 20px;
+}
+
+.checkbox{
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 10px;
+}
+
+.text{
+  flex-grow: 1;
+  font-size: 1.2rem;
+}
+
+.delete{
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 5px;
+  margin-right: 10px;
+  background-color: red;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.checkedTodoText{
+  text-decoration: line-through;
+}
